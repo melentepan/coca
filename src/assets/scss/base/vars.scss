@@ -26,6 +26,14 @@
   --container-padding: 15px;
   --container-width: 1200px;
 
+  // @include mini-desktop {
+  //   --container-width: 1000px;
+  // }
+
+  // @include mobile {
+  //   --container-width: 480px;
+  // }
+
   // transition
   --transition: 0.2s ease-in-out;
 
