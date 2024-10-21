@@ -1,6 +1,37 @@
 import Swiper from 'swiper';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
+
+export const usePartnersSlider = () => {
+  new Swiper('.partners__slider', {
+    modules: [Autoplay],
+    allowTouchMove: false,
+    slidesPerView: 1.6,
+    loop: true,
+    autoplay: {
+      delay: 0,
+    },
+    speed: 1500,
+    freeMode: true,
+    breakpoints: {
+      414: {
+        slidesPerView: 2.1,
+      },
+      769: {
+        slidesPerView: 1.5,
+      },
+      901: {
+        slidesPerView: 1.9,
+      },
+      993: {
+        slidesPerView: 2.2,
+      },
+      1201: {
+        slidesPerView: 2.65,
+      },
+    },
+  });
+};
 
 export const useInsightSlider = () => {
   new Swiper('.insight__slider', {
