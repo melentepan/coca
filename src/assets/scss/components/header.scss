@@ -159,7 +159,7 @@
         visibility var(--transition);
     }
 
-    &:hover {
+    @include hover {
       &::after {
         opacity: 1;
         visibility: visible;

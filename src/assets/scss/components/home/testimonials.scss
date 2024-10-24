@@ -80,7 +80,7 @@
 
   &__comment {
     width: 100%;
-    
+
     &-text {
       margin-bottom: 40px;
       font-weight: 500;
@@ -144,7 +144,7 @@
       transition: fill var(--transition);
     }
 
-    &:hover {
+    @include hover {
       border-color: var(--neutral-color-100);
       background-color: var(--neutral-color-100);
 

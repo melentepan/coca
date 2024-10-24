@@ -193,7 +193,7 @@
           visibility var(--transition);
       }
 
-      &:hover {
+      @include hover {
         &::after {
           opacity: 1;
           visibility: visible;
@@ -263,7 +263,7 @@
           visibility var(--transition);
       }
 
-      &:hover {
+      @include hover {
         &::after {
           opacity: 1;
           visibility: visible;
@@ -285,7 +285,7 @@
     &-link {
       transition: opacity var(--transition);
 
-      &:hover {
+      @include hover {
         opacity: 0.8;
       }
     }

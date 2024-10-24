@@ -242,7 +242,7 @@
       color: var(--neutral-color-100);
       transition: opacity var(--transition);
 
-      &:hover {
+      @include hover {
         opacity: 0.9;
       }
 

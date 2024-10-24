@@ -11,7 +11,7 @@
       font-size: 14px;
     }
 
-    &:hover {
+    @include hover {
       opacity: 0.9;
     }
   }
