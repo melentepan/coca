@@ -6,7 +6,7 @@
   }
 
   @include mobile {
-    min-height: calc(100dvh - 109px);
+    min-height: calc(100vh - 109px);
   }
 
   &__container {
